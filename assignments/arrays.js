@@ -102,7 +102,7 @@ let oldCars = [];
 
 for (let i = 0; i < carYears.length; i++) {
     if (carYears[i] < 2000) {
-        oldCars.push(carYears[i]);
+        oldCars.push(inventory[i]);
     }
 }
 
